@@ -1,15 +1,25 @@
+a {
+    text-decoration: none;
+}
+
+.my work:hover {
+    color: darkturquoise
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     text-align: center;
     background-color: pink
-   
-
 }
 
 #drawing1 {
     height: 220px;
     width: :175px;
     border-radius: 50%;
-   
+
 
 }
 
@@ -17,7 +27,6 @@ h1 {
     color: red;
     text-align: center;
     font-family: ' sans-serif', cursive
-
 }
 
 .line {
@@ -51,20 +60,37 @@ h1 {
     z-index: 10;
     cursor: pointer
 }
+
 #bio {
     background-color: pink
-    
 }
+
 #drawing {
     background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
     background-repeat: no-repeat;
 
 }
+
 h2 {
-color: blue
-    
+    color: blue
 }
-p{
+
+p {
     font-size: 40px;
     color: skyblue
+}
+
+#inspiration {
+    width: 100%;
+    height: 800px;
+    background-color: forestgreen;
+    text-align: center
+}
+
+.inspiration {
+    transition: transfrom .2s;
+}
+
+.inspiration :hover {
+    transform: scale(0.9)
 }
